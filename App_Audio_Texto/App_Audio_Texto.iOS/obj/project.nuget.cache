@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "oaIFTNZxLGqMwuFYfLcBL4PqozPmxxpGIMSLF3XLnPJ3kaUYqmnGG6UaEYyTZPic9cnRrmeVBBs1IVNlBA6Xrw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ruben\\source\\repos\\App_Audio_Texto\\App_Audio_Texto\\App_Audio_Texto.iOS\\App_Audio_Texto.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ruben\\.nuget\\packages\\microsoft.cognitiveservices.speech\\1.26.0\\microsoft.cognitiveservices.speech.1.26.0.nupkg.sha512",
+    "C:\\Users\\Ruben\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Ruben\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Ruben\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
