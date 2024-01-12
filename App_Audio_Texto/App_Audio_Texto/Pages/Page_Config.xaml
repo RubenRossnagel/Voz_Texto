@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App_Audio_Texto.PAGES.Page_Config">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <!-- Puedes agregar más filas según sea necesario -->
+            </Grid.RowDefinitions>
+
+            <Label Text="Opciones de la aplicacion:"
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="25"
+                   FontAttributes="Bold"
+                   TextColor="Black"
+                   Margin="10,0,10,0"
+                   Grid.Row="0" />
+
+            <Label Text="Selecciona El Locutor/a:"
+                   FontSize="18"
+                   FontAttributes="Bold"
+                   TextColor="Black"
+                   Margin="10,0,10,0"
+                   Grid.Row="1" />
+
+
+            <!-- Cuarta fila con el Picker -->
+            <Picker x:Name="OptionsPicker" SelectedIndexChanged="OnItemSelected"
+                    Title="Selecciona El Locutor/a"
+                    TitleColor="DarkGray"
+                    TextColor="Black"
+                    BackgroundColor="LightGray"
+                    Margin="10,0,10,0"
+                    FontSize="Small"
+                    Grid.Row="2" />
+
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
